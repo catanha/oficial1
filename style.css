@@ -1,0 +1,77 @@
+body {
+	background-color: #dddddd;
+	margin: 0px;
+}
+
+#topbar {
+	background-color: black;
+	overflow: hidden;
+}
+
+#topbar a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 20px;
+	float: left;
+}
+
+#topbar a:hover {
+	background-color: #dddddd;
+	color: black;
+}
+
+#conteudo {
+display: flex;
+justify-content: center;
+align-items:center;
+}
+.imageContainer {
+        display: inline-block;
+        padding: 20px;
+}
+
+.meio {
+text-align: center;
+}
+
+.meio p {
+text-align: center;
+}
+
+p {
+    text-align: center;
+	font-size: 18px;
+}
+
+#avatar {
+	width: 250px;
+}
+
+p {
+	font-family: 'serif';
+	text-align: justify;
+}
+
+h2 {
+	font-family: 'Arial Black';
+}
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+	clear: both;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.footer p, .footer a {
+	text-align: center;
+	font-size: 14px;
+	color: white;
+
+}
